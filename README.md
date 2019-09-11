@@ -9,4 +9,10 @@ Unlike most chat applications, Sail is created for Mac. With many applications t
 
 Please see your development lead for your goals beyond what is listed. These are not yet publicly available.
 
-[ ] Create the base application
+[ X ] Create the base application
+[ ] Create a base UI per the modual map
+[ ] Intergrate the Sail SDK
+
+### NOTICE
+
+App Sandbox and Hardened Runtime are enabled. If this becomes a problem during development, please see a team leader to have them get approval from a project leader to disable one or both features. You MUST show where in the code this is causing failure, what you have done to attempt to resolve this without disabling these features, as well as why the feature is crutial to the app and cannot just be removed.
