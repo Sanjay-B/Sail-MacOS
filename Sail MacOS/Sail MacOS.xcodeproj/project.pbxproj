@@ -3,17 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		734036A023298855004D7339 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7340369F23298855004D7339 /* AppDelegate.swift */; };
-		734036A223298855004D7339 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734036A123298855004D7339 /* ViewController.swift */; };
+		734036A223298855004D7339 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734036A123298855004D7339 /* Login.swift */; };
 		734036A423298857004D7339 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 734036A323298857004D7339 /* Assets.xcassets */; };
-		734036A723298857004D7339 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 734036A523298857004D7339 /* Main.storyboard */; };
+		734036A723298857004D7339 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 734036A523298857004D7339 /* Login.storyboard */; };
 		734036B323298858004D7339 /* Sail_MacOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734036B223298858004D7339 /* Sail_MacOSTests.swift */; };
 		734036BE23298858004D7339 /* Sail_MacOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734036BD23298858004D7339 /* Sail_MacOSUITests.swift */; };
 		734036CD23298935004D7339 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 734036CC23298935004D7339 /* README.md */; };
+		7395B5AF233925AC00EAE113 /* JulieanneSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 7395B5AE233925AC00EAE113 /* JulieanneSDK */; };
+		7395B5B2233925BC00EAE113 /* SailKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7395B5B1233925BC00EAE113 /* SailKit */; };
+		73DC347723353471001CD54C /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DC347623353471001CD54C /* Home.swift */; };
+		73E6BA9123340BEB0041672C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73E6BA9023340BEB0041672C /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +40,10 @@
 /* Begin PBXFileReference section */
 		7340369C23298855004D7339 /* Sail MacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sail MacOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7340369F23298855004D7339 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		734036A123298855004D7339 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		734036A123298855004D7339 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		734036A323298857004D7339 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		734036A623298857004D7339 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		734036A623298857004D7339 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
 		734036A823298857004D7339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		734036A923298857004D7339 /* Sail_MacOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sail_MacOS.entitlements; sourceTree = "<group>"; };
 		734036AE23298858004D7339 /* Sail MacOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sail MacOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		734036B223298858004D7339 /* Sail_MacOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sail_MacOSTests.swift; sourceTree = "<group>"; };
 		734036B423298858004D7339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +52,8 @@
 		734036BF23298858004D7339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		734036CB2329889E004D7339 /* Sail MacOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Sail MacOS.entitlements"; sourceTree = "<group>"; };
 		734036CC23298935004D7339 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		73DC347623353471001CD54C /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		73E6BA9023340BEB0041672C /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +61,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7395B5B2233925BC00EAE113 /* SailKit in Frameworks */,
+				7395B5AF233925AC00EAE113 /* JulieanneSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,13 +107,10 @@
 		7340369E23298855004D7339 /* Sail MacOS */ = {
 			isa = PBXGroup;
 			children = (
-				734036CB2329889E004D7339 /* Sail MacOS.entitlements */,
-				7340369F23298855004D7339 /* AppDelegate.swift */,
-				734036A123298855004D7339 /* ViewController.swift */,
-				734036A323298857004D7339 /* Assets.xcassets */,
-				734036A523298857004D7339 /* Main.storyboard */,
-				734036A823298857004D7339 /* Info.plist */,
-				734036A923298857004D7339 /* Sail_MacOS.entitlements */,
+				73E6BA8E23340BBD0041672C /* M */,
+				73E6BA8D23340BA40041672C /* V */,
+				73E6BA8F23340BC60041672C /* C */,
+				73E6BA8C23340AF90041672C /* Required */,
 			);
 			path = "Sail MacOS";
 			sourceTree = "<group>";
@@ -129,6 +133,42 @@
 			path = "Sail MacOSUITests";
 			sourceTree = "<group>";
 		};
+		73E6BA8C23340AF90041672C /* Required */ = {
+			isa = PBXGroup;
+			children = (
+				734036CB2329889E004D7339 /* Sail MacOS.entitlements */,
+				7340369F23298855004D7339 /* AppDelegate.swift */,
+				734036A323298857004D7339 /* Assets.xcassets */,
+				734036A823298857004D7339 /* Info.plist */,
+			);
+			path = Required;
+			sourceTree = "<group>";
+		};
+		73E6BA8D23340BA40041672C /* V */ = {
+			isa = PBXGroup;
+			children = (
+				734036A523298857004D7339 /* Login.storyboard */,
+				73E6BA9023340BEB0041672C /* Main.storyboard */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		73E6BA8E23340BBD0041672C /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		73E6BA8F23340BC60041672C /* C */ = {
+			isa = PBXGroup;
+			children = (
+				734036A123298855004D7339 /* Login.swift */,
+				73DC347623353471001CD54C /* Home.swift */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,6 +185,10 @@
 			dependencies = (
 			);
 			name = "Sail MacOS";
+			packageProductDependencies = (
+				7395B5AE233925AC00EAE113 /* JulieanneSDK */,
+				7395B5B1233925BC00EAE113 /* SailKit */,
+			);
 			productName = "Sail MacOS";
 			productReference = 7340369C23298855004D7339 /* Sail MacOS.app */;
 			productType = "com.apple.product-type.application";
@@ -192,7 +236,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1030;
-				LastUpgradeCheck = 1030;
+				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = "Brick Water Studios";
 				TargetAttributes = {
 					7340369B23298855004D7339 = {
@@ -231,6 +275,10 @@
 				Base,
 			);
 			mainGroup = 7340369323298855004D7339;
+			packageReferences = (
+				7395B5AD233925AC00EAE113 /* XCRemoteSwiftPackageReference "JulieanneSDK" */,
+				7395B5B0233925BC00EAE113 /* XCRemoteSwiftPackageReference "SailKit" */,
+			);
 			productRefGroup = 7340369D23298855004D7339 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -249,7 +297,8 @@
 			files = (
 				734036CD23298935004D7339 /* README.md in Resources */,
 				734036A423298857004D7339 /* Assets.xcassets in Resources */,
-				734036A723298857004D7339 /* Main.storyboard in Resources */,
+				734036A723298857004D7339 /* Login.storyboard in Resources */,
+				73E6BA9123340BEB0041672C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +323,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				734036A223298855004D7339 /* ViewController.swift in Sources */,
+				734036A223298855004D7339 /* Login.swift in Sources */,
+				73DC347723353471001CD54C /* Home.swift in Sources */,
 				734036A023298855004D7339 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,12 +361,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		734036A523298857004D7339 /* Main.storyboard */ = {
+		734036A523298857004D7339 /* Login.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				734036A623298857004D7339 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Login.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -441,12 +491,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Sail MacOS/Sail MacOS.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Sail MacOS/Required/Sail MacOS.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = LBL5W959W4;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = "Sail MacOS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Sail MacOS/Required/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -462,12 +513,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Sail MacOS/Sail MacOS.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Sail MacOS/Required/Sail MacOS.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = LBL5W959W4;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = "Sail MacOS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Sail MacOS/Required/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -605,6 +657,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7395B5AD233925AC00EAE113 /* XCRemoteSwiftPackageReference "JulieanneSDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/BrickWaterStudios/JulieanneSDK.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		7395B5B0233925BC00EAE113 /* XCRemoteSwiftPackageReference "SailKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/BrickWaterStudios/SailKit.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7395B5AE233925AC00EAE113 /* JulieanneSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7395B5AD233925AC00EAE113 /* XCRemoteSwiftPackageReference "JulieanneSDK" */;
+			productName = JulieanneSDK;
+		};
+		7395B5B1233925BC00EAE113 /* SailKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7395B5B0233925BC00EAE113 /* XCRemoteSwiftPackageReference "SailKit" */;
+			productName = SailKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7340369423298855004D7339 /* Project object */;
 }

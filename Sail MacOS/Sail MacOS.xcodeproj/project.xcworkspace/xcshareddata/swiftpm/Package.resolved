@@ -1,0 +1,34 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "JulieanneSDK",
+        "repositoryURL": "https://github.com/BrickWaterStudios/JulieanneSDK.git",
+        "state": {
+          "branch": "master",
+          "revision": "88ee0b0f15d87b35ddfb8874f004c20abd77e990",
+          "version": null
+        }
+      },
+      {
+        "package": "SailKit",
+        "repositoryURL": "https://github.com/BrickWaterStudios/SailKit.git",
+        "state": {
+          "branch": "master",
+          "revision": "12bd2304a1a8897cf9e5bc6856d004b7104f5b9f",
+          "version": null
+        }
+      },
+      {
+        "package": "SailSDK",
+        "repositoryURL": "https://github.com/BrickWaterStudios/SailSDK.git",
+        "state": {
+          "branch": "master",
+          "revision": "108a8c79f664f0ce76d521981f8bbea771e5828c",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
