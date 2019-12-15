@@ -1,48 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="Muf-l6-hRb">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="Muf-l6-hRb">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14868"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15702"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Sail Login-->
         <scene sceneID="E2r-tv-prY">
             <objects>
-                <viewController title="Sail Login" storyboardIdentifier="main" id="4ow-XI-6jo" customClass="Home" customModule="Sail_MacOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Sail Login" storyboardIdentifier="main" id="4ow-XI-6jo" customClass="Home" customModule="Project_Sail" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" appearanceType="darkAqua" id="GpU-8z-ZSv">
-                        <rect key="frame" x="0.0" y="0.0" width="800" height="500"/>
+                        <rect key="frame" x="0.0" y="0.0" width="900" height="500"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yb2-wV-JYy">
-                                <rect key="frame" x="0.0" y="0.0" width="800" height="500"/>
+                            <box boxType="custom" borderWidth="0.0" title="Box" translatesAutoresizingMaskIntoConstraints="NO" id="77m-Y7-X2T">
+                                <rect key="frame" x="0.0" y="0.0" width="250" height="500"/>
+                                <view key="contentView" id="7f3-P0-5In">
+                                    <rect key="frame" x="0.0" y="0.0" width="250" height="500"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <visualEffectView blendingMode="behindWindow" material="dark" state="followsWindowActiveState" translatesAutoresizingMaskIntoConstraints="NO" id="blb-GM-sFU">
+                                            <rect key="frame" x="0.0" y="0.0" width="250" height="500"/>
+                                        </visualEffectView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="blb-GM-sFU" secondAttribute="trailing" id="7TY-a3-nwN"/>
+                                        <constraint firstAttribute="bottom" secondItem="blb-GM-sFU" secondAttribute="bottom" id="Mq9-u6-9Er"/>
+                                        <constraint firstItem="blb-GM-sFU" firstAttribute="top" secondItem="7f3-P0-5In" secondAttribute="top" id="Wmc-go-thz"/>
+                                        <constraint firstItem="blb-GM-sFU" firstAttribute="leading" secondItem="7f3-P0-5In" secondAttribute="leading" id="zvU-b0-k3a"/>
+                                    </constraints>
+                                </view>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="500" id="ER6-j0-29k"/>
-                                    <constraint firstAttribute="width" constant="800" id="tD4-Gs-cbn"/>
+                                    <constraint firstAttribute="width" constant="250" id="vvm-0E-pIE"/>
                                 </constraints>
-                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="loginBackaground" id="QPh-Db-7Nd"/>
-                            </imageView>
-                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="bzp-YG-mWb">
-                                <rect key="frame" x="728" y="461" width="52" height="19"/>
-                                <buttonCell key="cell" type="roundRect" title="Logout" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" inset="2" id="BhW-pB-bHX">
-                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" size="12" name="HelveticaNeue"/>
-                                </buttonCell>
-                            </button>
+                                <color key="borderColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="fillColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </box>
+                            <box canDrawConcurrently="YES" boxType="custom" borderWidth="0.0" title="Box" translatesAutoresizingMaskIntoConstraints="NO" id="pUE-Wl-UTw">
+                                <rect key="frame" x="250" y="0.0" width="650" height="500"/>
+                                <view key="contentView" id="C0W-0q-QTf">
+                                    <rect key="frame" x="0.0" y="0.0" width="650" height="500"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <visualEffectView blendingMode="behindWindow" material="dark" state="followsWindowActiveState" translatesAutoresizingMaskIntoConstraints="NO" id="hTV-Un-1cJ">
+                                            <rect key="frame" x="0.0" y="0.0" width="650" height="500"/>
+                                        </visualEffectView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="hTV-Un-1cJ" firstAttribute="leading" secondItem="C0W-0q-QTf" secondAttribute="leading" id="cnP-fs-uBb"/>
+                                        <constraint firstAttribute="bottom" secondItem="hTV-Un-1cJ" secondAttribute="bottom" id="noE-oL-rWY"/>
+                                        <constraint firstAttribute="trailing" secondItem="hTV-Un-1cJ" secondAttribute="trailing" id="oj4-jo-VA4"/>
+                                        <constraint firstItem="hTV-Un-1cJ" firstAttribute="top" secondItem="C0W-0q-QTf" secondAttribute="top" id="xmr-sp-2v7"/>
+                                    </constraints>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="600" id="Md3-i2-S7d"/>
+                                </constraints>
+                                <color key="borderColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="fillColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </box>
                         </subviews>
                         <constraints>
-                            <constraint firstItem="bzp-YG-mWb" firstAttribute="top" secondItem="GpU-8z-ZSv" secondAttribute="top" constant="20" id="2QP-Vh-8Yd"/>
-                            <constraint firstItem="yb2-wV-JYy" firstAttribute="leading" secondItem="GpU-8z-ZSv" secondAttribute="leading" id="NNk-fN-d19"/>
-                            <constraint firstItem="yb2-wV-JYy" firstAttribute="top" secondItem="GpU-8z-ZSv" secondAttribute="top" id="Nya-y3-0Ke"/>
-                            <constraint firstAttribute="trailing" secondItem="bzp-YG-mWb" secondAttribute="trailing" constant="20" id="S6O-ai-krR"/>
-                            <constraint firstAttribute="trailing" secondItem="yb2-wV-JYy" secondAttribute="trailing" id="jin-sM-vgH"/>
-                            <constraint firstAttribute="bottom" secondItem="yb2-wV-JYy" secondAttribute="bottom" id="wyb-6N-pRK"/>
+                            <constraint firstItem="77m-Y7-X2T" firstAttribute="top" secondItem="GpU-8z-ZSv" secondAttribute="top" id="4fb-S8-E5B"/>
+                            <constraint firstItem="77m-Y7-X2T" firstAttribute="leading" secondItem="GpU-8z-ZSv" secondAttribute="leading" id="VdB-gf-4h0"/>
+                            <constraint firstItem="pUE-Wl-UTw" firstAttribute="top" secondItem="GpU-8z-ZSv" secondAttribute="top" id="gTh-uv-17h"/>
+                            <constraint firstAttribute="bottom" secondItem="pUE-Wl-UTw" secondAttribute="bottom" id="nVL-rO-MeE"/>
+                            <constraint firstItem="pUE-Wl-UTw" firstAttribute="leading" secondItem="77m-Y7-X2T" secondAttribute="trailing" id="qcu-TG-Tvb"/>
+                            <constraint firstAttribute="trailing" secondItem="pUE-Wl-UTw" secondAttribute="trailing" id="tA1-Nb-oLG"/>
+                            <constraint firstAttribute="bottom" secondItem="77m-Y7-X2T" secondAttribute="bottom" id="yWi-Bw-LLw"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="backgroundBox" destination="pUE-Wl-UTw" id="Idz-bp-nN9"/>
+                    </connections>
                 </viewController>
                 <customObject id="Cym-6g-iPn" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="74" y="844"/>
+            <point key="canvasLocation" x="75" y="844"/>
         </scene>
         <!--Application-->
         <scene sceneID="mOv-AW-0qE">
@@ -432,7 +467,7 @@
                         </connections>
                     </window>
                     <connections>
-                        <segue destination="4ow-XI-6jo" kind="relationship" relationship="window.shadowedContentViewController" id="yfR-83-Pg1"/>
+                        <segue destination="4ow-XI-6jo" kind="relationship" relationship="window.shadowedContentViewController" id="3t3-i7-aeM"/>
                     </connections>
                 </windowController>
                 <customObject id="Y85-sX-5Bv" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
@@ -440,7 +475,4 @@
             <point key="canvasLocation" x="75" y="250"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="loginBackaground" width="800" height="500"/>
-    </resources>
 </document>

@@ -13,6 +13,9 @@ Please see your development lead for your goals beyond what is listed. These are
 [ ] Create a base UI per the modual map
 [ ] Intergrate the Sail SDK
 
-### NOTICE
+### NOTICE && Notes
 
 App Sandbox and Hardened Runtime are enabled. If this becomes a problem during development, please see a team leader to have them get approval from a project leader to disable one or both features. You MUST show where in the code this is causing failure, what you have done to attempt to resolve this without disabling these features, as well as why the feature is crutial to the app and cannot just be removed.
+
+- When adding things near the top bar of the application (Main.storyboard), remember the top bar is intergrated into the desing of the application. This means you need to adjust your constraints around this design element.
+- Logout code is LOCAL based on a secessful logout call. DO NOT assume logout is always successful. This is not a flaw, this is just current design and will likely change in the future.

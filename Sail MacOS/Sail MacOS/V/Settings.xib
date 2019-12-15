@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="15505" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15505"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView wantsLayer="YES" id="c22-O7-iKe" customClass="Settings" customModule="Sail_MacOS" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="54" height="61"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <box boxType="custom" cornerRadius="4" title="Box" translatesAutoresizingMaskIntoConstraints="NO" id="nMv-Xt-xN2">
+                    <rect key="frame" x="51" y="0.0" width="3" height="61"/>
+                    <view key="contentView" id="kJp-v8-dSI">
+                        <rect key="frame" x="1" y="1" width="1" height="59"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    </view>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="3" id="dfy-U7-rFi"/>
+                    </constraints>
+                </box>
+                <button translatesAutoresizingMaskIntoConstraints="NO" id="D9M-vh-DKp">
+                    <rect key="frame" x="8" y="18" width="35" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="35" id="PAC-nE-cwe"/>
+                        <constraint firstAttribute="height" constant="35" id="zhB-Dl-r1k"/>
+                    </constraints>
+                    <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="56805" imagePosition="above" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="EzV-cG-HQK">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="didPressLogout:" target="c22-O7-iKe" id="2Mu-vb-nSS"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="D9M-vh-DKp" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" constant="8" id="BuS-T4-MXW"/>
+                <constraint firstAttribute="bottom" secondItem="nMv-Xt-xN2" secondAttribute="bottom" id="F3y-JE-076"/>
+                <constraint firstItem="D9M-vh-DKp" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" constant="8" id="JJR-pz-NTw"/>
+                <constraint firstItem="nMv-Xt-xN2" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" id="cxD-DD-3jk"/>
+                <constraint firstAttribute="trailing" secondItem="nMv-Xt-xN2" secondAttribute="trailing" id="htw-U4-kLi"/>
+                <constraint firstItem="nMv-Xt-xN2" firstAttribute="leading" secondItem="D9M-vh-DKp" secondAttribute="trailing" constant="8" id="p4k-4P-ozq"/>
+            </constraints>
+            <connections>
+                <outlet property="box" destination="nMv-Xt-xN2" id="lMx-id-d23"/>
+                <outlet property="logout" destination="D9M-vh-DKp" id="bRt-jw-eyt"/>
+            </connections>
+            <point key="canvasLocation" x="314" y="428.5"/>
+        </customView>
+    </objects>
+    <resources>
+        <image name="56805" width="98.304000854492188" height="98.304000854492188"/>
+    </resources>
+</document>

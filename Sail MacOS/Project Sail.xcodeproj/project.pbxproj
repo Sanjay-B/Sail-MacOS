@@ -1,0 +1,852 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7307B15C2399A8FC00FA7B33 /* SKHuD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7307B15B2399A8FC00FA7B33 /* SKHuD.swift */; };
+		7307B15E2399A94200FA7B33 /* SKHuDButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7307B15D2399A94200FA7B33 /* SKHuDButton.swift */; };
+		73172147239AB80200C43339 /* wall.png in Resources */ = {isa = PBXBuildFile; fileRef = 73172144239AB80100C43339 /* wall.png */; };
+		73172148239AB80200C43339 /* friends.png in Resources */ = {isa = PBXBuildFile; fileRef = 73172145239AB80100C43339 /* friends.png */; };
+		73172149239AB80200C43339 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 73172146239AB80100C43339 /* home.png */; };
+		732A916D239DA2A900796F25 /* SKColor_Temp_Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732A916C239DA2A900796F25 /* SKColor_Temp_Ext.swift */; };
+		732A9190239DB26000796F25 /* setting.png in Resources */ = {isa = PBXBuildFile; fileRef = 732A918F239DB26000796F25 /* setting.png */; };
+		732A9192239DB2C300796F25 /* send.png in Resources */ = {isa = PBXBuildFile; fileRef = 732A9191239DB2C300796F25 /* send.png */; };
+		732A9194239DB95900796F25 /* Settings.xib in Resources */ = {isa = PBXBuildFile; fileRef = 732A9193239DB95900796F25 /* Settings.xib */; };
+		732A9196239DB9D800796F25 /* 56805.png in Resources */ = {isa = PBXBuildFile; fileRef = 732A9195239DB9D800796F25 /* 56805.png */; };
+		732A9198239DBCE500796F25 /* NSNib+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732A9197239DBCE500796F25 /* NSNib+Ext.swift */; };
+		732A919A239DCA8F00796F25 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732A9199239DCA8F00796F25 /* Settings.swift */; };
+		734036A023298855004D7339 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7340369F23298855004D7339 /* AppDelegate.swift */; };
+		734036A223298855004D7339 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734036A123298855004D7339 /* Login.swift */; };
+		734036A423298857004D7339 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 734036A323298857004D7339 /* Assets.xcassets */; };
+		734036A723298857004D7339 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 734036A523298857004D7339 /* Login.storyboard */; };
+		734036B323298858004D7339 /* Sail_MacOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734036B223298858004D7339 /* Sail_MacOSTests.swift */; };
+		734036BE23298858004D7339 /* Sail_MacOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734036BD23298858004D7339 /* Sail_MacOSUITests.swift */; };
+		734036CD23298935004D7339 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 734036CC23298935004D7339 /* README.md */; };
+		7371359F239D4454005BCF3D /* ScribeBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7371359E239D4454005BCF3D /* ScribeBar.xib */; };
+		737135A1239D47D1005BCF3D /* file.png in Resources */ = {isa = PBXBuildFile; fileRef = 737135A0239D47D1005BCF3D /* file.png */; };
+		737135A3239D47DA005BCF3D /* camea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 737135A2239D47DA005BCF3D /* camea.jpg */; };
+		737135AC239D49A7005BCF3D /* Send-Icon-PNG-1-715x657.png in Resources */ = {isa = PBXBuildFile; fileRef = 737135AB239D49A7005BCF3D /* Send-Icon-PNG-1-715x657.png */; };
+		7395B5AF233925AC00EAE113 /* JulieanneSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 7395B5AE233925AC00EAE113 /* JulieanneSDK */; };
+		7395B5B2233925BC00EAE113 /* SailKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7395B5B1233925BC00EAE113 /* SailKit */; };
+		739ABC9B239D4A6C006E8DC0 /* ScribeBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739ABC9A239D4A6C006E8DC0 /* ScribeBar.swift */; };
+		73A41EA823A414BF00F6E13C /* ToBeCoded[Server].swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A41EA723A414BF00F6E13C /* ToBeCoded[Server].swift */; };
+		73A41EAA23A4150900F6E13C /* SailDevTestServer.txt in Resources */ = {isa = PBXBuildFile; fileRef = 73A41EA923A4150900F6E13C /* SailDevTestServer.txt */; };
+		73B757E123A6B65E007CCC06 /* SKHuDTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B757E023A6B65E007CCC06 /* SKHuDTheme.swift */; };
+		73B8807E23A43C88006609D4 /* SKTableCellMiniView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73B8807C23A43C88006609D4 /* SKTableCellMiniView.xib */; };
+		73B8807F23A43C88006609D4 /* SKTableCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73B8807D23A43C88006609D4 /* SKTableCellView.xib */; };
+		73B8808123A43CEB006609D4 /* SKTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73B8808023A43CEB006609D4 /* SKTableView.xib */; };
+		73B8808523A43D82006609D4 /* Constraint+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B8808223A43D81006609D4 /* Constraint+Helper.swift */; };
+		73B8808623A43D82006609D4 /* SKTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B8808323A43D82006609D4 /* SKTableCell.swift */; };
+		73B8808723A43D82006609D4 /* SKTableCellMiniView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B8808423A43D82006609D4 /* SKTableCellMiniView.swift */; };
+		73DC347723353471001CD54C /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DC347623353471001CD54C /* Home.swift */; };
+		73E6BA9123340BEB0041672C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73E6BA9023340BEB0041672C /* Main.storyboard */; };
+		73F1FD1B23A0122F00D3267E /* audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73F1FD1A23A0122F00D3267E /* audio.mp3 */; };
+		73F1FD1D23A0125100D3267E /* SKSampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F1FD1C23A0125100D3267E /* SKSampleData.swift */; };
+		73F94FB22396C98800101FD0 /* NSBezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F94FB12396C98800101FD0 /* NSBezierPath.swift */; };
+		73F94FB42396CA9400101FD0 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 73F94FB32396CA9400101FD0 /* menu.png */; };
+		73F94FB62396CE1D00101FD0 /* 7655.png in Resources */ = {isa = PBXBuildFile; fileRef = 73F94FB52396CE1C00101FD0 /* 7655.png */; };
+		73FE96FF23804F21006267CE /* NoticeBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73FE96FE23804F21006267CE /* NoticeBar.xib */; };
+		73FE97012380520E006267CE /* MultiPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FE97002380520E006267CE /* MultiPass.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		734036AF23298858004D7339 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7340369423298855004D7339 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7340369B23298855004D7339;
+			remoteInfo = "Sail MacOS";
+		};
+		734036BA23298858004D7339 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7340369423298855004D7339 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7340369B23298855004D7339;
+			remoteInfo = "Sail MacOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7307B15B2399A8FC00FA7B33 /* SKHuD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKHuD.swift; sourceTree = "<group>"; };
+		7307B15D2399A94200FA7B33 /* SKHuDButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKHuDButton.swift; sourceTree = "<group>"; };
+		73172144239AB80100C43339 /* wall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wall.png; sourceTree = "<group>"; };
+		73172145239AB80100C43339 /* friends.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = friends.png; sourceTree = "<group>"; };
+		73172146239AB80100C43339 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		732A916C239DA2A900796F25 /* SKColor_Temp_Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKColor_Temp_Ext.swift; sourceTree = "<group>"; };
+		732A918F239DB26000796F25 /* setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting.png; sourceTree = "<group>"; };
+		732A9191239DB2C300796F25 /* send.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = send.png; sourceTree = "<group>"; };
+		732A9193239DB95900796F25 /* Settings.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Settings.xib; sourceTree = "<group>"; };
+		732A9195239DB9D800796F25 /* 56805.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 56805.png; sourceTree = "<group>"; };
+		732A9197239DBCE500796F25 /* NSNib+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSNib+Ext.swift"; sourceTree = "<group>"; };
+		732A9199239DCA8F00796F25 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		7340369C23298855004D7339 /* Project Sail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project Sail.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7340369F23298855004D7339 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		734036A123298855004D7339 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		734036A323298857004D7339 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		734036A623298857004D7339 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
+		734036A823298857004D7339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		734036AE23298858004D7339 /* Project SailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project SailTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		734036B223298858004D7339 /* Sail_MacOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sail_MacOSTests.swift; sourceTree = "<group>"; };
+		734036B423298858004D7339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		734036B923298858004D7339 /* Project SailUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project SailUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		734036BD23298858004D7339 /* Sail_MacOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sail_MacOSUITests.swift; sourceTree = "<group>"; };
+		734036BF23298858004D7339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		734036CB2329889E004D7339 /* Sail MacOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Sail MacOS.entitlements"; sourceTree = "<group>"; };
+		734036CC23298935004D7339 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7371359E239D4454005BCF3D /* ScribeBar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScribeBar.xib; sourceTree = "<group>"; };
+		737135A0239D47D1005BCF3D /* file.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = file.png; sourceTree = "<group>"; };
+		737135A2239D47DA005BCF3D /* camea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = camea.jpg; sourceTree = "<group>"; };
+		737135AB239D49A7005BCF3D /* Send-Icon-PNG-1-715x657.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Send-Icon-PNG-1-715x657.png"; sourceTree = "<group>"; };
+		739ABC9A239D4A6C006E8DC0 /* ScribeBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribeBar.swift; sourceTree = "<group>"; };
+		73A41EA723A414BF00F6E13C /* ToBeCoded[Server].swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ToBeCoded[Server].swift"; sourceTree = "<group>"; };
+		73A41EA923A4150900F6E13C /* SailDevTestServer.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SailDevTestServer.txt; sourceTree = "<group>"; };
+		73B757E023A6B65E007CCC06 /* SKHuDTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKHuDTheme.swift; sourceTree = "<group>"; };
+		73B8807C23A43C88006609D4 /* SKTableCellMiniView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SKTableCellMiniView.xib; sourceTree = "<group>"; };
+		73B8807D23A43C88006609D4 /* SKTableCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SKTableCellView.xib; sourceTree = "<group>"; };
+		73B8808023A43CEB006609D4 /* SKTableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SKTableView.xib; sourceTree = "<group>"; };
+		73B8808223A43D81006609D4 /* Constraint+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Constraint+Helper.swift"; sourceTree = "<group>"; };
+		73B8808323A43D82006609D4 /* SKTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTableCell.swift; sourceTree = "<group>"; };
+		73B8808423A43D82006609D4 /* SKTableCellMiniView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTableCellMiniView.swift; sourceTree = "<group>"; };
+		73DC347623353471001CD54C /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		73E6BA9023340BEB0041672C /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		73F1FD1923A0122800D3267E /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
+		73F1FD1A23A0122F00D3267E /* audio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio.mp3; sourceTree = "<group>"; };
+		73F1FD1C23A0125100D3267E /* SKSampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKSampleData.swift; sourceTree = "<group>"; };
+		73F94FB12396C98800101FD0 /* NSBezierPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSBezierPath.swift; sourceTree = "<group>"; };
+		73F94FB32396CA9400101FD0 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		73F94FB52396CE1C00101FD0 /* 7655.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7655.png; sourceTree = "<group>"; };
+		73FE96FE23804F21006267CE /* NoticeBar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoticeBar.xib; sourceTree = "<group>"; };
+		73FE97002380520E006267CE /* MultiPass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiPass.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7340369923298855004D7339 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7395B5B2233925BC00EAE113 /* SailKit in Frameworks */,
+				7395B5AF233925AC00EAE113 /* JulieanneSDK in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		734036AB23298858004D7339 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		734036B623298858004D7339 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7340369323298855004D7339 = {
+			isa = PBXGroup;
+			children = (
+				734036CC23298935004D7339 /* README.md */,
+				7340369E23298855004D7339 /* Sail MacOS */,
+				734036B123298858004D7339 /* Sail MacOSTests */,
+				734036BC23298858004D7339 /* Sail MacOSUITests */,
+				7340369D23298855004D7339 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7340369D23298855004D7339 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7340369C23298855004D7339 /* Project Sail.app */,
+				734036AE23298858004D7339 /* Project SailTests.xctest */,
+				734036B923298858004D7339 /* Project SailUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7340369E23298855004D7339 /* Sail MacOS */ = {
+			isa = PBXGroup;
+			children = (
+				73B757DF23A6B647007CCC06 /* Theme Files */,
+				73B8807B23A43C69006609D4 /* ChatAssets */,
+				737135A6239D487D005BCF3D /* temp assets */,
+				73E6BA8E23340BBD0041672C /* M */,
+				73E6BA8D23340BA40041672C /* V */,
+				73E6BA8F23340BC60041672C /* C */,
+				73E6BA8C23340AF90041672C /* Required */,
+			);
+			path = "Sail MacOS";
+			sourceTree = "<group>";
+		};
+		734036B123298858004D7339 /* Sail MacOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				734036B223298858004D7339 /* Sail_MacOSTests.swift */,
+				734036B423298858004D7339 /* Info.plist */,
+			);
+			path = "Sail MacOSTests";
+			sourceTree = "<group>";
+		};
+		734036BC23298858004D7339 /* Sail MacOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				734036BD23298858004D7339 /* Sail_MacOSUITests.swift */,
+				734036BF23298858004D7339 /* Info.plist */,
+			);
+			path = "Sail MacOSUITests";
+			sourceTree = "<group>";
+		};
+		737135A6239D487D005BCF3D /* temp assets */ = {
+			isa = PBXGroup;
+			children = (
+				73F1FD1923A0122800D3267E /* video.mp4 */,
+				73F1FD1A23A0122F00D3267E /* audio.mp3 */,
+				732A9191239DB2C300796F25 /* send.png */,
+				732A918F239DB26000796F25 /* setting.png */,
+				73F94FB52396CE1C00101FD0 /* 7655.png */,
+				73F94FB32396CA9400101FD0 /* menu.png */,
+				73172145239AB80100C43339 /* friends.png */,
+				73172146239AB80100C43339 /* home.png */,
+				732A9195239DB9D800796F25 /* 56805.png */,
+				73172144239AB80100C43339 /* wall.png */,
+				737135A0239D47D1005BCF3D /* file.png */,
+				737135A2239D47DA005BCF3D /* camea.jpg */,
+				737135AB239D49A7005BCF3D /* Send-Icon-PNG-1-715x657.png */,
+				732A916C239DA2A900796F25 /* SKColor_Temp_Ext.swift */,
+				73F1FD1C23A0125100D3267E /* SKSampleData.swift */,
+			);
+			path = "temp assets";
+			sourceTree = "<group>";
+		};
+		73B757DF23A6B647007CCC06 /* Theme Files */ = {
+			isa = PBXGroup;
+			children = (
+				73B757E023A6B65E007CCC06 /* SKHuDTheme.swift */,
+			);
+			path = "Theme Files";
+			sourceTree = "<group>";
+		};
+		73B8807B23A43C69006609D4 /* ChatAssets */ = {
+			isa = PBXGroup;
+			children = (
+				73B8808223A43D81006609D4 /* Constraint+Helper.swift */,
+				73B8808323A43D82006609D4 /* SKTableCell.swift */,
+				73B8808423A43D82006609D4 /* SKTableCellMiniView.swift */,
+				73B8807C23A43C88006609D4 /* SKTableCellMiniView.xib */,
+				73B8807D23A43C88006609D4 /* SKTableCellView.xib */,
+				73B8808023A43CEB006609D4 /* SKTableView.xib */,
+			);
+			path = ChatAssets;
+			sourceTree = "<group>";
+		};
+		73E6BA8C23340AF90041672C /* Required */ = {
+			isa = PBXGroup;
+			children = (
+				734036CB2329889E004D7339 /* Sail MacOS.entitlements */,
+				7340369F23298855004D7339 /* AppDelegate.swift */,
+				734036A323298857004D7339 /* Assets.xcassets */,
+				734036A823298857004D7339 /* Info.plist */,
+			);
+			path = Required;
+			sourceTree = "<group>";
+		};
+		73E6BA8D23340BA40041672C /* V */ = {
+			isa = PBXGroup;
+			children = (
+				734036A523298857004D7339 /* Login.storyboard */,
+				73E6BA9023340BEB0041672C /* Main.storyboard */,
+				73FE96FE23804F21006267CE /* NoticeBar.xib */,
+				7371359E239D4454005BCF3D /* ScribeBar.xib */,
+				732A9193239DB95900796F25 /* Settings.xib */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		73E6BA8E23340BBD0041672C /* M */ = {
+			isa = PBXGroup;
+			children = (
+				73F94FB12396C98800101FD0 /* NSBezierPath.swift */,
+				7307B15B2399A8FC00FA7B33 /* SKHuD.swift */,
+				7307B15D2399A94200FA7B33 /* SKHuDButton.swift */,
+				732A9197239DBCE500796F25 /* NSNib+Ext.swift */,
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		73E6BA8F23340BC60041672C /* C */ = {
+			isa = PBXGroup;
+			children = (
+				73A41EA923A4150900F6E13C /* SailDevTestServer.txt */,
+				73A41EA723A414BF00F6E13C /* ToBeCoded[Server].swift */,
+				734036A123298855004D7339 /* Login.swift */,
+				73DC347623353471001CD54C /* Home.swift */,
+				73FE97002380520E006267CE /* MultiPass.swift */,
+				739ABC9A239D4A6C006E8DC0 /* ScribeBar.swift */,
+				732A9199239DCA8F00796F25 /* Settings.swift */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7340369B23298855004D7339 /* Project Sail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 734036C223298858004D7339 /* Build configuration list for PBXNativeTarget "Project Sail" */;
+			buildPhases = (
+				7340369823298855004D7339 /* Sources */,
+				7340369923298855004D7339 /* Frameworks */,
+				7340369A23298855004D7339 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Project Sail";
+			packageProductDependencies = (
+				7395B5AE233925AC00EAE113 /* JulieanneSDK */,
+				7395B5B1233925BC00EAE113 /* SailKit */,
+			);
+			productName = "Sail MacOS";
+			productReference = 7340369C23298855004D7339 /* Project Sail.app */;
+			productType = "com.apple.product-type.application";
+		};
+		734036AD23298858004D7339 /* Project SailTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 734036C523298858004D7339 /* Build configuration list for PBXNativeTarget "Project SailTests" */;
+			buildPhases = (
+				734036AA23298858004D7339 /* Sources */,
+				734036AB23298858004D7339 /* Frameworks */,
+				734036AC23298858004D7339 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				734036B023298858004D7339 /* PBXTargetDependency */,
+			);
+			name = "Project SailTests";
+			productName = "Sail MacOSTests";
+			productReference = 734036AE23298858004D7339 /* Project SailTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		734036B823298858004D7339 /* Project SailUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 734036C823298858004D7339 /* Build configuration list for PBXNativeTarget "Project SailUITests" */;
+			buildPhases = (
+				734036B523298858004D7339 /* Sources */,
+				734036B623298858004D7339 /* Frameworks */,
+				734036B723298858004D7339 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				734036BB23298858004D7339 /* PBXTargetDependency */,
+			);
+			name = "Project SailUITests";
+			productName = "Sail MacOSUITests";
+			productReference = 734036B923298858004D7339 /* Project SailUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7340369423298855004D7339 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Brick Water Studios";
+				TargetAttributes = {
+					7340369B23298855004D7339 = {
+						CreatedOnToolsVersion = 10.3;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.Mac = {
+								enabled = 0;
+							};
+							com.apple.HardenedRuntime = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					734036AD23298858004D7339 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 7340369B23298855004D7339;
+					};
+					734036B823298858004D7339 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 7340369B23298855004D7339;
+					};
+				};
+			};
+			buildConfigurationList = 7340369723298855004D7339 /* Build configuration list for PBXProject "Project Sail" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7340369323298855004D7339;
+			packageReferences = (
+				7395B5AD233925AC00EAE113 /* XCRemoteSwiftPackageReference "JulieanneSDK" */,
+				7395B5B0233925BC00EAE113 /* XCRemoteSwiftPackageReference "SailKit" */,
+			);
+			productRefGroup = 7340369D23298855004D7339 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7340369B23298855004D7339 /* Project Sail */,
+				734036AD23298858004D7339 /* Project SailTests */,
+				734036B823298858004D7339 /* Project SailUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7340369A23298855004D7339 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				737135A3239D47DA005BCF3D /* camea.jpg in Resources */,
+				73FE96FF23804F21006267CE /* NoticeBar.xib in Resources */,
+				7371359F239D4454005BCF3D /* ScribeBar.xib in Resources */,
+				73B8807F23A43C88006609D4 /* SKTableCellView.xib in Resources */,
+				732A9190239DB26000796F25 /* setting.png in Resources */,
+				73F1FD1B23A0122F00D3267E /* audio.mp3 in Resources */,
+				73172148239AB80200C43339 /* friends.png in Resources */,
+				732A9194239DB95900796F25 /* Settings.xib in Resources */,
+				73172147239AB80200C43339 /* wall.png in Resources */,
+				734036CD23298935004D7339 /* README.md in Resources */,
+				73F94FB42396CA9400101FD0 /* menu.png in Resources */,
+				734036A423298857004D7339 /* Assets.xcassets in Resources */,
+				732A9192239DB2C300796F25 /* send.png in Resources */,
+				737135AC239D49A7005BCF3D /* Send-Icon-PNG-1-715x657.png in Resources */,
+				73B8808123A43CEB006609D4 /* SKTableView.xib in Resources */,
+				73172149239AB80200C43339 /* home.png in Resources */,
+				73A41EAA23A4150900F6E13C /* SailDevTestServer.txt in Resources */,
+				734036A723298857004D7339 /* Login.storyboard in Resources */,
+				73E6BA9123340BEB0041672C /* Main.storyboard in Resources */,
+				737135A1239D47D1005BCF3D /* file.png in Resources */,
+				732A9196239DB9D800796F25 /* 56805.png in Resources */,
+				73F94FB62396CE1D00101FD0 /* 7655.png in Resources */,
+				73B8807E23A43C88006609D4 /* SKTableCellMiniView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		734036AC23298858004D7339 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		734036B723298858004D7339 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7340369823298855004D7339 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73F94FB22396C98800101FD0 /* NSBezierPath.swift in Sources */,
+				73FE97012380520E006267CE /* MultiPass.swift in Sources */,
+				73B8808723A43D82006609D4 /* SKTableCellMiniView.swift in Sources */,
+				73B8808523A43D82006609D4 /* Constraint+Helper.swift in Sources */,
+				734036A223298855004D7339 /* Login.swift in Sources */,
+				73F1FD1D23A0125100D3267E /* SKSampleData.swift in Sources */,
+				73DC347723353471001CD54C /* Home.swift in Sources */,
+				732A9198239DBCE500796F25 /* NSNib+Ext.swift in Sources */,
+				734036A023298855004D7339 /* AppDelegate.swift in Sources */,
+				7307B15C2399A8FC00FA7B33 /* SKHuD.swift in Sources */,
+				7307B15E2399A94200FA7B33 /* SKHuDButton.swift in Sources */,
+				73B8808623A43D82006609D4 /* SKTableCell.swift in Sources */,
+				73B757E123A6B65E007CCC06 /* SKHuDTheme.swift in Sources */,
+				739ABC9B239D4A6C006E8DC0 /* ScribeBar.swift in Sources */,
+				732A919A239DCA8F00796F25 /* Settings.swift in Sources */,
+				732A916D239DA2A900796F25 /* SKColor_Temp_Ext.swift in Sources */,
+				73A41EA823A414BF00F6E13C /* ToBeCoded[Server].swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		734036AA23298858004D7339 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				734036B323298858004D7339 /* Sail_MacOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		734036B523298858004D7339 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				734036BE23298858004D7339 /* Sail_MacOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		734036B023298858004D7339 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7340369B23298855004D7339 /* Project Sail */;
+			targetProxy = 734036AF23298858004D7339 /* PBXContainerItemProxy */;
+		};
+		734036BB23298858004D7339 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7340369B23298855004D7339 /* Project Sail */;
+			targetProxy = 734036BA23298858004D7339 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		734036A523298857004D7339 /* Login.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				734036A623298857004D7339 /* Base */,
+			);
+			name = Login.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		734036C023298858004D7339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		734036C123298858004D7339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		734036C323298858004D7339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Sail MacOS/Required/Sail MacOS.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = LBL5W959W4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Sail MacOS/Required/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bws.Sail-MacOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		734036C423298858004D7339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Sail MacOS/Required/Sail MacOS.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = LBL5W959W4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Sail MacOS/Required/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bws.Sail-MacOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		734036C623298858004D7339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = LBL5W959W4;
+				INFOPLIST_FILE = "Sail MacOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bws.Sail-MacOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project Sail.app/Contents/MacOS/Project Sail";
+			};
+			name = Debug;
+		};
+		734036C723298858004D7339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = LBL5W959W4;
+				INFOPLIST_FILE = "Sail MacOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bws.Sail-MacOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project Sail.app/Contents/MacOS/Project Sail";
+			};
+			name = Release;
+		};
+		734036C923298858004D7339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = LBL5W959W4;
+				INFOPLIST_FILE = "Sail MacOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bws.Sail-MacOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Sail MacOS";
+			};
+			name = Debug;
+		};
+		734036CA23298858004D7339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = LBL5W959W4;
+				INFOPLIST_FILE = "Sail MacOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bws.Sail-MacOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Sail MacOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7340369723298855004D7339 /* Build configuration list for PBXProject "Project Sail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				734036C023298858004D7339 /* Debug */,
+				734036C123298858004D7339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		734036C223298858004D7339 /* Build configuration list for PBXNativeTarget "Project Sail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				734036C323298858004D7339 /* Debug */,
+				734036C423298858004D7339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		734036C523298858004D7339 /* Build configuration list for PBXNativeTarget "Project SailTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				734036C623298858004D7339 /* Debug */,
+				734036C723298858004D7339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		734036C823298858004D7339 /* Build configuration list for PBXNativeTarget "Project SailUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				734036C923298858004D7339 /* Debug */,
+				734036CA23298858004D7339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7395B5AD233925AC00EAE113 /* XCRemoteSwiftPackageReference "JulieanneSDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/BrickWaterStudios/JulieanneSDK.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		7395B5B0233925BC00EAE113 /* XCRemoteSwiftPackageReference "SailKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/BrickWaterStudios/SailKit.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7395B5AE233925AC00EAE113 /* JulieanneSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7395B5AD233925AC00EAE113 /* XCRemoteSwiftPackageReference "JulieanneSDK" */;
+			productName = JulieanneSDK;
+		};
+		7395B5B1233925BC00EAE113 /* SailKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7395B5B0233925BC00EAE113 /* XCRemoteSwiftPackageReference "SailKit" */;
+			productName = SailKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7340369423298855004D7339 /* Project object */;
+}

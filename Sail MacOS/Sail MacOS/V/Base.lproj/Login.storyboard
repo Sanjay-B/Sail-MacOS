@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14868"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15702"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -675,7 +675,7 @@
                         <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
                     </connections>
                 </application>
-                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="Sail_MacOS" customModuleProvider="target"/>
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="Project_Sail" customModuleProvider="target"/>
                 <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -704,7 +704,7 @@
         <!--Sail Login-->
         <scene sceneID="hIz-AP-VOD">
             <objects>
-                <viewController title="Sail Login" id="XfG-lQ-9wD" customClass="Login" customModule="Sail_MacOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Sail Login" id="XfG-lQ-9wD" customClass="Login" customModule="Project_Sail" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" appearanceType="darkAqua" id="m2S-Jp-Qdl">
                         <rect key="frame" x="0.0" y="0.0" width="800" height="500"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -712,8 +712,8 @@
                             <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="PV8-nu-aj1">
                                 <rect key="frame" x="0.0" y="0.0" width="800" height="500"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="800" id="fkC-1V-hd6"/>
-                                    <constraint firstAttribute="height" constant="500" id="i5k-hH-4Qj"/>
+                                    <constraint firstAttribute="width" constant="800" placeholder="YES" id="fkC-1V-hd6"/>
+                                    <constraint firstAttribute="height" constant="500" placeholder="YES" id="i5k-hH-4Qj"/>
                                 </constraints>
                                 <gestureRecognizers>
                                     <clickGestureRecognizer delaysPrimaryMouseButtonEvents="YES" numberOfClicksRequired="1" id="LCR-GP-9hA">
@@ -725,7 +725,7 @@
                                 <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="loginBackaground" id="pnA-iV-Dg2"/>
                             </imageView>
                             <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="mYK-QG-wcY">
-                                <rect key="frame" x="327" y="267" width="147" height="20"/>
+                                <rect key="frame" x="102" y="267" width="147" height="20"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="147" id="bau-2r-TmG"/>
                                 </constraints>
@@ -736,7 +736,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ddT-VH-eRa">
-                                <rect key="frame" x="325" y="294" width="70" height="16"/>
+                                <rect key="frame" x="100" y="294" width="70" height="16"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" title="Username" id="POg-Gg-0QV">
                                     <font key="font" metaFont="systemBold"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -744,7 +744,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="9pc-en-rCf">
-                                <rect key="frame" x="325" y="243" width="67" height="16"/>
+                                <rect key="frame" x="100" y="243" width="67" height="16"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" title="Password" id="bgb-4u-R2x">
                                     <font key="font" metaFont="systemBold"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -752,7 +752,7 @@
                                 </textFieldCell>
                             </textField>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="RxE-Fx-rbT">
-                                <rect key="frame" x="327" y="188" width="52" height="19"/>
+                                <rect key="frame" x="102" y="188" width="52" height="19"/>
                                 <buttonCell key="cell" type="roundRect" title="Forgot" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="5th-OC-PTf">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="label" size="12"/>
@@ -762,7 +762,7 @@
                                 </connections>
                             </button>
                             <secureTextField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="TRL-C3-O68">
-                                <rect key="frame" x="327" y="215" width="147" height="20"/>
+                                <rect key="frame" x="102" y="215" width="147" height="20"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="147" id="zml-95-je9"/>
                                 </constraints>
@@ -784,7 +784,7 @@
                                 </textFieldCell>
                             </textField>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="2D8-95-AoZ">
-                                <rect key="frame" x="430" y="188" width="44" height="19"/>
+                                <rect key="frame" x="205" y="188" width="44" height="19"/>
                                 <buttonCell key="cell" type="roundRect" title="Login" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" inset="2" id="Uoy-1O-SUq">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" size="12" name="HelveticaNeue"/>
@@ -795,8 +795,11 @@
                             </button>
                         </subviews>
                         <constraints>
+                            <constraint firstAttribute="trailing" secondItem="PV8-nu-aj1" secondAttribute="trailing" id="3Ax-MY-KpB"/>
+                            <constraint firstItem="PV8-nu-aj1" firstAttribute="leading" secondItem="TRL-C3-O68" secondAttribute="trailing" constant="-249" id="45o-Ud-ATo"/>
                             <constraint firstAttribute="trailing" secondItem="PV8-nu-aj1" secondAttribute="trailing" id="7B9-oZ-hFO"/>
                             <constraint firstItem="9pc-en-rCf" firstAttribute="top" secondItem="mYK-QG-wcY" secondAttribute="bottom" constant="8" id="JKL-B2-igG"/>
+                            <constraint firstAttribute="bottom" secondItem="PV8-nu-aj1" secondAttribute="bottom" id="KRe-2H-2qK"/>
                             <constraint firstItem="PV8-nu-aj1" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="KiO-mg-sFY"/>
                             <constraint firstItem="2D8-95-AoZ" firstAttribute="top" secondItem="TRL-C3-O68" secondAttribute="bottom" constant="8" id="Qmr-Qb-BPo"/>
                             <constraint firstItem="TRL-C3-O68" firstAttribute="leading" secondItem="RxE-Fx-rbT" secondAttribute="leading" id="W2V-De-P98"/>
@@ -804,13 +807,14 @@
                             <constraint firstItem="PV8-nu-aj1" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="Yzn-fm-MP4"/>
                             <constraint firstItem="mYK-QG-wcY" firstAttribute="top" secondItem="ddT-VH-eRa" secondAttribute="bottom" constant="7" id="bVH-UK-APo"/>
                             <constraint firstItem="mYK-QG-wcY" firstAttribute="leading" secondItem="ddT-VH-eRa" secondAttribute="leading" id="bgT-P5-vbg"/>
+                            <constraint firstItem="PV8-nu-aj1" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="d16-nj-OcU"/>
                             <constraint firstItem="TRL-C3-O68" firstAttribute="top" secondItem="9pc-en-rCf" secondAttribute="bottom" constant="8" id="f1l-Gy-LDN"/>
                             <constraint firstItem="9pc-en-rCf" firstAttribute="centerY" secondItem="PV8-nu-aj1" secondAttribute="centerY" constant="-1" id="gmp-td-vvg"/>
                             <constraint firstItem="mYK-QG-wcY" firstAttribute="leading" secondItem="9pc-en-rCf" secondAttribute="leading" id="he2-1I-sxG"/>
                             <constraint firstItem="RxE-Fx-rbT" firstAttribute="top" secondItem="TRL-C3-O68" secondAttribute="bottom" constant="8" id="kSm-ai-7NA"/>
                             <constraint firstAttribute="bottom" secondItem="PV8-nu-aj1" secondAttribute="bottom" id="koE-P0-YKH"/>
+                            <constraint firstItem="PV8-nu-aj1" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="t21-Yk-pvI"/>
                             <constraint firstItem="M88-po-ecU" firstAttribute="centerX" secondItem="PV8-nu-aj1" secondAttribute="centerX" id="uP4-av-P9V"/>
-                            <constraint firstItem="TRL-C3-O68" firstAttribute="centerX" secondItem="PV8-nu-aj1" secondAttribute="centerX" id="vdk-oZ-XhO"/>
                             <constraint firstItem="M88-po-ecU" firstAttribute="top" secondItem="PV8-nu-aj1" secondAttribute="bottom" constant="-55" id="xcx-Qu-aL5"/>
                             <constraint firstItem="TRL-C3-O68" firstAttribute="leading" secondItem="9pc-en-rCf" secondAttribute="leading" id="zU7-Rq-7pr"/>
                         </constraints>
@@ -828,6 +832,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="loginBackaground" width="800" height="500"/>
+        <image name="loginBackaground" width="1440" height="900"/>
     </resources>
 </document>

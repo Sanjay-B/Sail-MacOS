@@ -1,0 +1,38 @@
+{
+    "token": "NSTokenProvided__OVERRIDE_DYNAMIC_01",
+    "id": "62D6AD4B-94F3-40E6-92D7-1BC10BDCC7CB",
+    "name": "Sail Dev",
+    "banner": null,
+    "status": 0,
+    "enhancements": [],
+    "userList": [{
+        "id": "AEFE037B-D473-4834-A030-52E436838501",
+        "username": "Wookiee",
+        "avatar": null,
+        "status": 0
+    }],
+    "blockList": [],
+    "openingChannel": "241E1D69-D265-45D0-B207-2543562DFB27",
+    "channelList": [{
+            "id": "241E1D69-D265-45D0-B207-2543562DFB27",
+            "name": "Home",
+            "type": 1,
+            "messages": [],
+            "enhancements": []
+        },
+        {
+            "id": "DA3298A0-9708-4778-B288-D917513FA72E",
+            "name": "iOS Dev",
+            "type": 1,
+            "messages": [],
+            "enhancements": []
+        },
+        {
+            "id": "F9CB1CF8-F22C-48D8-83A7-84CA5A56C877",
+            "name": "MacOS Dev",
+            "type": 1,
+            "messages": [],
+            "enhancements": []
+        }
+    ]
+}

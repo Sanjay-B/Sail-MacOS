@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="15702" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15702"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="c22-O7-iKe" customClass="ScribeBar" customModule="Project_Sail" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="714" height="45"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <box boxType="custom" borderWidth="4" cornerRadius="4" title="Box" translatesAutoresizingMaskIntoConstraints="NO" id="iOD-i8-AWM">
+                    <rect key="frame" x="0.0" y="0.0" width="714" height="45"/>
+                    <view key="contentView" id="7px-dE-b0L">
+                        <rect key="frame" x="4" y="4" width="706" height="37"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button translatesAutoresizingMaskIntoConstraints="NO" id="t0W-Yo-1bn">
+                                <rect key="frame" x="8" y="8" width="21" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Qya-V9-BKi"/>
+                                    <constraint firstAttribute="width" constant="21" id="xvf-BM-MnG"/>
+                                </constraints>
+                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="camea" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="Jys-g9-qiC">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="didPressPhoto:" target="c22-O7-iKe" id="z9K-wF-tZG"/>
+                                </connections>
+                            </button>
+                            <button translatesAutoresizingMaskIntoConstraints="NO" id="soQ-aH-Pvj">
+                                <rect key="frame" x="37" y="8" width="21" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="21" id="4Kg-2K-9UB"/>
+                                    <constraint firstAttribute="height" constant="21" id="Qhk-ny-auR"/>
+                                </constraints>
+                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="file" imagePosition="overlaps" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="beX-li-cMd">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="didPressFile:" target="c22-O7-iKe" id="sF3-bG-urH"/>
+                                </connections>
+                            </button>
+                            <textField focusRingType="none" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="NEs-m0-Pbl">
+                                <rect key="frame" x="74" y="8" width="568" height="21"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" focusRingType="none" id="YKK-F8-6v3">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="didPressSend:" target="c22-O7-iKe" id="HvW-s3-pu7"/>
+                                </connections>
+                            </textField>
+                            <box boxType="custom" cornerRadius="4" title="Box" translatesAutoresizingMaskIntoConstraints="NO" id="Qay-Hp-TRb">
+                                <rect key="frame" x="66" y="8" width="2" height="21"/>
+                                <view key="contentView" id="SVd-b9-5hc">
+                                    <rect key="frame" x="1" y="1" width="0.0" height="19"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="2" id="PbP-QH-FAw"/>
+                                    <constraint firstAttribute="height" constant="21" id="fni-qs-YAD"/>
+                                </constraints>
+                                <color key="borderColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="fillColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </box>
+                            <button translatesAutoresizingMaskIntoConstraints="NO" id="urR-2v-VOa">
+                                <rect key="frame" x="648" y="8" width="21" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="8fs-Kn-Q7Y"/>
+                                    <constraint firstAttribute="width" constant="21" id="aRF-cC-Y8S"/>
+                                </constraints>
+                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="send" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="iLY-Bc-ORU">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="didPressSend:" target="c22-O7-iKe" id="vs2-hm-eI2"/>
+                                </connections>
+                            </button>
+                            <button translatesAutoresizingMaskIntoConstraints="NO" id="Yds-pc-kZQ">
+                                <rect key="frame" x="677" y="8" width="21" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Kqo-Ci-bBi"/>
+                                    <constraint firstAttribute="width" constant="21" id="pnR-mg-ABi"/>
+                                </constraints>
+                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="setting" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="43E-5I-tGn">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="didPressSettings:" target="c22-O7-iKe" id="ckb-73-4KH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="t0W-Yo-1bn" secondAttribute="bottom" constant="8" id="AN4-8M-alK"/>
+                            <constraint firstAttribute="bottom" secondItem="urR-2v-VOa" secondAttribute="bottom" constant="8" id="GlH-vN-RlE"/>
+                            <constraint firstItem="NEs-m0-Pbl" firstAttribute="top" secondItem="7px-dE-b0L" secondAttribute="top" constant="8" id="NQX-JX-Lkk"/>
+                            <constraint firstItem="soQ-aH-Pvj" firstAttribute="leading" secondItem="t0W-Yo-1bn" secondAttribute="trailing" constant="8" id="TB9-EF-8jD"/>
+                            <constraint firstItem="soQ-aH-Pvj" firstAttribute="top" relation="greaterThanOrEqual" secondItem="7px-dE-b0L" secondAttribute="top" constant="8" id="Thp-H2-pRn"/>
+                            <constraint firstAttribute="bottom" secondItem="NEs-m0-Pbl" secondAttribute="bottom" constant="8" id="VEj-UZ-TMk"/>
+                            <constraint firstItem="Yds-pc-kZQ" firstAttribute="top" secondItem="7px-dE-b0L" secondAttribute="top" constant="8" id="Vk5-ih-xZl"/>
+                            <constraint firstItem="t0W-Yo-1bn" firstAttribute="top" relation="greaterThanOrEqual" secondItem="7px-dE-b0L" secondAttribute="top" constant="8" id="ZAT-pR-g8e"/>
+                            <constraint firstItem="Qay-Hp-TRb" firstAttribute="leading" secondItem="soQ-aH-Pvj" secondAttribute="trailing" constant="8" id="Zst-U5-ZMB"/>
+                            <constraint firstItem="t0W-Yo-1bn" firstAttribute="leading" secondItem="7px-dE-b0L" secondAttribute="leading" constant="8" id="aq8-8b-zea"/>
+                            <constraint firstAttribute="bottom" secondItem="Yds-pc-kZQ" secondAttribute="bottom" constant="8" id="blG-bG-hhc"/>
+                            <constraint firstItem="Qay-Hp-TRb" firstAttribute="top" secondItem="7px-dE-b0L" secondAttribute="top" constant="8" id="eBY-40-cjM"/>
+                            <constraint firstItem="urR-2v-VOa" firstAttribute="top" relation="greaterThanOrEqual" secondItem="7px-dE-b0L" secondAttribute="top" constant="8" id="hTn-uw-IBg"/>
+                            <constraint firstItem="urR-2v-VOa" firstAttribute="leading" secondItem="NEs-m0-Pbl" secondAttribute="trailing" constant="8" id="jdT-cd-EKG"/>
+                            <constraint firstItem="Yds-pc-kZQ" firstAttribute="leading" secondItem="urR-2v-VOa" secondAttribute="trailing" constant="8" id="k4H-eH-UNO"/>
+                            <constraint firstItem="NEs-m0-Pbl" firstAttribute="leading" secondItem="Qay-Hp-TRb" secondAttribute="trailing" constant="8" id="kR3-pd-SXR"/>
+                            <constraint firstAttribute="trailing" secondItem="Yds-pc-kZQ" secondAttribute="trailing" constant="8" id="maC-KE-HMb"/>
+                            <constraint firstAttribute="bottom" secondItem="soQ-aH-Pvj" secondAttribute="bottom" constant="8" id="vCx-bo-HZw"/>
+                        </constraints>
+                    </view>
+                    <color key="borderColor" red="0.1176470588" green="0.1176470588" blue="0.1176470588" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="fillColor" red="0.1176470588" green="0.1176470588" blue="0.1176470588" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                </box>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="iOD-i8-AWM" secondAttribute="bottom" id="Awy-PW-XJw"/>
+                <constraint firstItem="iOD-i8-AWM" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" id="MbA-Wm-qKg"/>
+                <constraint firstItem="iOD-i8-AWM" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" id="Umi-Lp-dUv"/>
+                <constraint firstAttribute="trailing" secondItem="iOD-i8-AWM" secondAttribute="trailing" id="v0C-q3-5cY"/>
+            </constraints>
+            <connections>
+                <outlet property="file" destination="soQ-aH-Pvj" id="CbW-ZQ-Aqn"/>
+                <outlet property="marker" destination="Qay-Hp-TRb" id="jMj-dX-x03"/>
+                <outlet property="photo" destination="t0W-Yo-1bn" id="f1u-N5-9kn"/>
+                <outlet property="scribe" destination="NEs-m0-Pbl" id="tpw-cg-mYg"/>
+                <outlet property="send" destination="urR-2v-VOa" id="9RC-bY-E6o"/>
+                <outlet property="settings" destination="Yds-pc-kZQ" id="eKR-2z-G6n"/>
+            </connections>
+            <point key="canvasLocation" x="-45" y="295.5"/>
+        </customView>
+    </objects>
+    <resources>
+        <image name="camea" width="980" height="980"/>
+        <image name="file" width="512" height="512"/>
+        <image name="send" width="200" height="200"/>
+        <image name="setting" width="981" height="980"/>
+    </resources>
+</document>
