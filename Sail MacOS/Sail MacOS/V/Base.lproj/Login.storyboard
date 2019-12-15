@@ -709,11 +709,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="800" height="500"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="PV8-nu-aj1">
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="PV8-nu-aj1">
                                 <rect key="frame" x="0.0" y="0.0" width="800" height="500"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="800" placeholder="YES" id="fkC-1V-hd6"/>
-                                    <constraint firstAttribute="height" constant="500" placeholder="YES" id="i5k-hH-4Qj"/>
+                                    <constraint firstAttribute="width" constant="800" placeholder="YES" id="1G6-NF-885"/>
+                                    <constraint firstAttribute="height" constant="500" placeholder="YES" id="iAw-Z9-2Vt"/>
                                 </constraints>
                                 <gestureRecognizers>
                                     <clickGestureRecognizer delaysPrimaryMouseButtonEvents="YES" numberOfClicksRequired="1" id="LCR-GP-9hA">
@@ -722,7 +722,7 @@
                                         </connections>
                                     </clickGestureRecognizer>
                                 </gestureRecognizers>
-                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="loginBackaground" id="pnA-iV-Dg2"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="axesIndependently" image="loginBackaground" id="pnA-iV-Dg2"/>
                             </imageView>
                             <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="mYK-QG-wcY">
                                 <rect key="frame" x="102" y="267" width="147" height="20"/>
@@ -798,10 +798,13 @@
                             <constraint firstAttribute="trailing" secondItem="PV8-nu-aj1" secondAttribute="trailing" id="3Ax-MY-KpB"/>
                             <constraint firstItem="PV8-nu-aj1" firstAttribute="leading" secondItem="TRL-C3-O68" secondAttribute="trailing" constant="-249" id="45o-Ud-ATo"/>
                             <constraint firstAttribute="trailing" secondItem="PV8-nu-aj1" secondAttribute="trailing" id="7B9-oZ-hFO"/>
+                            <constraint firstItem="2D8-95-AoZ" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="RxE-Fx-rbT" secondAttribute="trailing" constant="8" symbolic="YES" id="Bd7-Vy-TYL"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ddT-VH-eRa" secondAttribute="trailing" constant="20" symbolic="YES" id="IqO-dn-33C"/>
                             <constraint firstItem="9pc-en-rCf" firstAttribute="top" secondItem="mYK-QG-wcY" secondAttribute="bottom" constant="8" id="JKL-B2-igG"/>
                             <constraint firstAttribute="bottom" secondItem="PV8-nu-aj1" secondAttribute="bottom" id="KRe-2H-2qK"/>
                             <constraint firstItem="PV8-nu-aj1" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="KiO-mg-sFY"/>
                             <constraint firstItem="2D8-95-AoZ" firstAttribute="top" secondItem="TRL-C3-O68" secondAttribute="bottom" constant="8" id="Qmr-Qb-BPo"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="9pc-en-rCf" secondAttribute="trailing" constant="20" symbolic="YES" id="S8w-7J-xpI"/>
                             <constraint firstItem="TRL-C3-O68" firstAttribute="leading" secondItem="RxE-Fx-rbT" secondAttribute="leading" id="W2V-De-P98"/>
                             <constraint firstItem="TRL-C3-O68" firstAttribute="trailing" secondItem="2D8-95-AoZ" secondAttribute="trailing" id="WkB-gE-gzp"/>
                             <constraint firstItem="PV8-nu-aj1" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="Yzn-fm-MP4"/>
